@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 36.27 s <<< FAILURE! -- in TestSuite
-script.Demo2.testB -- Time elapsed: 0.063 s <<< FAILURE!
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 60.76 s <<< FAILURE! -- in TestSuite
+script.Demo2.testB -- Time elapsed: 0.272 s <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
@@ -30,7 +30,7 @@ java.lang.AssertionError: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 
-script.Demo2.testB -- Time elapsed: 0.043 s <<< FAILURE!
+script.Demo2.testB -- Time elapsed: 0.023 s <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
