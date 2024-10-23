@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Home Page is Displayed]]>
+      <![CDATA[Err Msg is Displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-10-22T12:28:10 IST" name="Default suite" finished-at="2024-10-22T12:28:21 IST" duration-ms="11247">
+  <suite started-at="2024-10-23T11:37:57 IST" name="Default suite" finished-at="2024-10-23T11:38:09 IST" duration-ms="12093">
     <groups>
     </groups>
-    <test started-at="2024-10-22T12:28:10 IST" name="Default test" finished-at="2024-10-22T12:28:21 IST" duration-ms="11247">
-      <class name="script.ValidLogin">
-        <test-method is-config="true" signature="initReport()[pri:0, instance:script.ValidLogin@4659191b]" started-at="2024-10-22T12:28:09 IST" name="initReport" finished-at="2024-10-22T12:28:10 IST" duration-ms="674" status="PASS">
+    <test started-at="2024-10-23T11:37:57 IST" name="Default test" finished-at="2024-10-23T11:38:09 IST" duration-ms="12093">
+      <class name="script.InValidLogin">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:script.InValidLogin@4659191b]" started-at="2024-10-23T11:37:56 IST" name="initReport" finished-at="2024-10-23T11:37:57 IST" duration-ms="831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
-        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String)[pri:0, instance:script.ValidLogin@4659191b]" started-at="2024-10-22T12:28:10 IST" name="preCondition" finished-at="2024-10-22T12:28:16 IST" duration-ms="6438" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String)[pri:0, instance:script.InValidLogin@4659191b]" started-at="2024-10-23T11:37:57 IST" name="preCondition" finished-at="2024-10-23T11:38:05 IST" duration-ms="7988" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void script.ValidLogin.testValidLogin()]]>
+                <![CDATA[public void script.InValidLogin.testInvalidLogin()]]>
               </value>
             </param>
             <param index="1">
@@ -30,29 +30,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@4659191b]" started-at="2024-10-22T12:28:16 IST" name="testValidLogin" finished-at="2024-10-22T12:28:20 IST" duration-ms="4233" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:script.InValidLogin@4659191b]" started-at="2024-10-23T11:38:05 IST" name="testInvalidLogin" finished-at="2024-10-23T11:38:09 IST" duration-ms="3493" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Home Page is Displayed]]>
+              <![CDATA[Err Msg is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@4659191b]" started-at="2024-10-22T12:28:20 IST" name="postCondition" finished-at="2024-10-22T12:28:21 IST" duration-ms="524" status="PASS">
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.InValidLogin@4659191b]" started-at="2024-10-23T11:38:09 IST" name="postCondition" finished-at="2024-10-23T11:38:09 IST" duration-ms="514" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@4659191b] output=Home Page is Displayed]]]>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InValidLogin.testInvalidLogin()[pri:2, instance:script.InValidLogin@4659191b] output=Err Msg is Displayed]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:script.ValidLogin@4659191b]" started-at="2024-10-22T12:28:21 IST" name="generateReport" finished-at="2024-10-22T12:28:22 IST" duration-ms="715" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:script.InValidLogin@4659191b]" started-at="2024-10-23T11:38:09 IST" name="generateReport" finished-at="2024-10-23T11:38:10 IST" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-      </class> <!-- script.ValidLogin -->
+      </class> <!-- script.InValidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
