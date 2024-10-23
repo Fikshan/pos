@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.Demo2" class="method navigator-link" hash-for-method="testB">testB</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.Demo2" class="method navigator-link" hash-for-method="testB">testB</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,42 +103,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.Demo4" class="method navigator-link" hash-for-method="createUser">createUser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="script.ValidLogin" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.DemoX" class="method navigator-link" hash-for-method="createUser">createUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.Demo4" class="method navigator-link" hash-for-method="createUser">createUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.DemoX" class="method navigator-link" hash-for-method="createUser">createUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.DemoX" class="method navigator-link" hash-for-method="deleteUser">deleteUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.DemoX" class="method navigator-link" hash-for-method="deleteUser">deleteUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.Demo1" class="method navigator-link" hash-for-method="testA">testA</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.Demo1" class="method navigator-link" hash-for-method="testA">testA</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="script.ValidLogin" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -172,122 +123,24 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">script.Demo2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testB">
-                  </a> <!-- testB -->
-                  <span class="method-name">testB</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at script.Demo2.testB(Demo2.java:16)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 19 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testB">
-                  </a> <!-- testB -->
-                  <span class="method-name">testB</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at script.Demo2.testB(Demo2.java:16)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 19 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">script.DemoX</span>
+              <span class="class-name">script.ValidLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createUser">
-                  </a> <!-- createUser -->
-                  <span class="method-name">createUser</span>
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="createUser">
-                  </a> <!-- createUser -->
-                  <span class="method-name">createUser</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="deleteUser">
-                  </a> <!-- deleteUser -->
-                  <span class="method-name">deleteUser</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="deleteUser">
-                  </a> <!-- deleteUser -->
-                  <span class="method-name">deleteUser</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">script.Demo1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testA">
-                  </a> <!-- testA -->
-                  <span class="method-name">testA</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testA">
-                  </a> <!-- testA -->
-                  <span class="method-name">testA</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">script.Demo4</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createUser">
-                  </a> <!-- createUser -->
-                  <span class="method-name">createUser</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createUser">
-                  </a> <!-- createUser -->
-                  <span class="method-name">createUser</span>
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -308,10 +161,7 @@
       &lt;package name=&quot;script&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;script.Demo1&quot;/&gt;
-      &lt;class name=&quot;script.Demo2&quot;/&gt;
-      &lt;class name=&quot;script.Demo4&quot;/&gt;
-      &lt;class name=&quot;script.DemoX&quot;/&gt;
+      &lt;class name=&quot;script.ValidLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestQA --&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestP&quot; verbose=&quot;0&quot;&gt;
@@ -320,10 +170,7 @@
       &lt;package name=&quot;script&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;script.Demo1&quot;/&gt;
-      &lt;class name=&quot;script.Demo2&quot;/&gt;
-      &lt;class name=&quot;script.Demo4&quot;/&gt;
-      &lt;class name=&quot;script.DemoX&quot;/&gt;
+      &lt;class name=&quot;script.ValidLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestP --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -337,10 +184,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TestQA (4 classes)</span>
+                <span class="test-name">TestQA (1 class)</span>
               </li>
               <li>
-                <span class="test-name">TestP (4 classes)</span>
+                <span class="test-name">TestP (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -366,52 +213,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testA')
-data.setCell(0, 2, 'script.Demo1')
-data.setCell(0, 3, 7295);
+data.setCell(0, 1, 'testValidLogin')
+data.setCell(0, 2, 'script.ValidLogin')
+data.setCell(0, 3, 10116);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testB')
-data.setCell(1, 2, 'script.Demo2')
-data.setCell(1, 3, 264);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testA')
-data.setCell(2, 2, 'script.Demo1')
-data.setCell(2, 3, 83);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testB')
-data.setCell(3, 2, 'script.Demo2')
-data.setCell(3, 3, 15);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'createUser')
-data.setCell(4, 2, 'script.DemoX')
-data.setCell(4, 3, 4);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'deleteUser')
-data.setCell(5, 2, 'script.DemoX')
-data.setCell(5, 3, 2);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'createUser')
-data.setCell(6, 2, 'script.Demo4')
-data.setCell(6, 3, 2);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'deleteUser')
-data.setCell(7, 2, 'script.DemoX')
-data.setCell(7, 3, 2);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'createUser')
-data.setCell(8, 2, 'script.Demo4')
-data.setCell(8, 3, 1);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'createUser')
-data.setCell(9, 2, 'script.DemoX')
-data.setCell(9, 3, 0);
+data.setCell(1, 1, 'testValidLogin')
+data.setCell(1, 2, 'script.ValidLogin')
+data.setCell(1, 3, 2427);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -422,26 +237,25 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Home Page is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Home Page is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">script.Demo2</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">generateReport</span>
-                <br/>
-                <span class="ignored-method-name">initReport</span>
-                <br/>
-                <span class="ignored-method-name">initReport</span>
-                <br/>
-                <span class="ignored-method-name">generateReport</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -450,135 +264,38 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">script.Demo1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">script.ValidLogin</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">initReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">preCondition(public void script.Demo1.testA(), qa.properties)</span>
-                <span class="method-start">665 ms</span>
+                <span class="method-name">preCondition(public void script.ValidLogin.testValidLogin(), config.properties)</span>
+                <span class="method-start">688 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">preCondition(public void script.Demo1.testA(), config.properties)</span>
-                <span class="method-start">669 ms</span>
+                <span class="method-name">preCondition(public void script.ValidLogin.testValidLogin(), qa.properties)</span>
+                <span class="method-start">690 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testA</span>
-                <span class="method-start">20750 ms</span>
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">17373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">26409 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=testA status=SUCCESS method=Demo1.testA()[pri:0, instance:script.Demo1@55a147cc] ou...)</span>
-                <span class="method-start">28060 ms</span>
+                <span class="method-name">postCondition([TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:sc...)</span>
+                <span class="method-start">27496 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">testA</span>
-                <span class="method-start">35950 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=testA status=SUCCESS method=Demo1.testA()[pri:0, instance:script.Demo1@cb0755b] out...)</span>
-                <span class="method-start">36036 ms</span>
+                <span class="method-name">postCondition([TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:sc...)</span>
+                <span class="method-start">28837 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">script.Demo2</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">preCondition(public void script.Demo2.testB(), config.properties)</span>
-                <span class="method-start">37026 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">preCondition(public void script.Demo2.testB(), qa.properties)</span>
-                <span class="method-start">39971 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testB</span>
-                <span class="method-start">43222 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=testB status=FAILURE method=Demo2.testB()[pri:0, instance:script.Demo2@d86a6f] outp...)</span>
-                <span class="method-start">43494 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">script.Demo4</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">bm</span>
-                <span class="method-start">48504 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">createUser</span>
-                <span class="method-start">48505 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">script.DemoX</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">bm(public void script.DemoX.createUser())</span>
-                <span class="method-start">48519 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">createUser</span>
-                <span class="method-start">48525 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">bm(public void script.DemoX.deleteUser())</span>
-                <span class="method-start">48545 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">deleteUser</span>
-                <span class="method-start">48546 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">script.Demo2</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testB</span>
-                <span class="method-start">54351 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=testB status=FAILURE method=Demo2.testB()[pri:0, instance:script.Demo2@33065d67] ou...)</span>
-                <span class="method-start">54374 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">script.Demo4</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">createUser</span>
-                <span class="method-start">57339 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">bm</span>
-                <span class="method-start">57339 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">script.DemoX</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">bm(public void script.DemoX.createUser())</span>
-                <span class="method-start">57342 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">createUser</span>
-                <span class="method-start">57343 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">bm(public void script.DemoX.deleteUser())</span>
-                <span class="method-start">57345 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">deleteUser</span>
-                <span class="method-start">57348 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">script.Demo1</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">57370 ms</span>
+                <span class="method-start">30607 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
